@@ -1,15 +1,12 @@
-# Лабораторная работа "Интеллектуальные информационные системы"
-## Выполнил: Антипов Д.А. А-01м-23
-
 ## **Описание проекта:**
-Целью данного проекта является прогнозирование цен на поддержаные автомобили. Для данной задачи используется набор данных Car Price prediction: https://www.kaggle.com/datasets/vijayaadithyanvg/car-price-predictionused-cars/data
+Целью данного проекта является прогнозирование цен на подержаyные автомобили. Для данной задачи используется набор данных Car Price prediction: https://www.kaggle.com/datasets/vijayaadithyanvg/car-price-predictionused-cars/data
 
 ## **Запуск:**
 ```
 git clone https://github.com/AntipovDA/IIS - клонирование репозитория
 cd IIS - переход в склонированную папку
 python -m .venv \my_venv - установка виртуального окружения
-my_venv\Scripts\activate - активация виртуального окружения
+source my_env/bin/activate - активация виртуального окружения
 pip install -r requirements.txt - установкав в окружение всех требуемых библиотек
 ```
 
