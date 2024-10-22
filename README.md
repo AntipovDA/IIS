@@ -1,5 +1,5 @@
 ## **Описание проекта:**
-Целью данного проекта является прогнозирование цен на подержаyные автомобили. Для данной задачи используется набор данных Car Price prediction: https://www.kaggle.com/datasets/vijayaadithyanvg/car-price-predictionused-cars/data
+Целью данного проекта является прогнозирование цен на подержаные автомобили. Для данной задачи используется набор данных Car Price prediction: https://www.kaggle.com/datasets/vijayaadithyanvg/car-price-predictionused-cars/data
 
 ## **Запуск:**
 ```
