@@ -1,0 +1,60 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "Car_Name",
+      "Selling_Price",
+      "Driven_kms",
+      "Fuel_Type",
+      "Selling_type",
+      "Transmission",
+      "Owner"
+    ],
+    "data": [
+      [
+        "Honda Activa 4G",
+        0.47998046875,
+        4300,
+        "Petrol",
+        "Individual",
+        "Automatic",
+        0
+      ],
+      [
+        "Royal Enfield Classic 350",
+        1.349609375,
+        4100,
+        "Petrol",
+        "Individual",
+        "Manual",
+        0
+      ],
+      [
+        "jazz",
+        7.3984375,
+        15059,
+        "Petrol",
+        "Dealer",
+        "Automatic",
+        0
+      ],
+      [
+        "verna",
+        4.5,
+        36000,
+        "Petrol",
+        "Dealer",
+        "Manual",
+        0
+      ],
+      [
+        "brio",
+        5.3984375,
+        31427,
+        "Petrol",
+        "Dealer",
+        "Manual",
+        0
+      ]
+    ]
+  }
+}
