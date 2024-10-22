@@ -6,7 +6,7 @@
 git clone https://github.com/AntipovDA/IIS - клонирование репозитория
 cd IIS - переход в склонированную папку
 python -m .venv \my_venv - установка виртуального окружения
-source my_env/bin/activate - активация виртуального окружения
+source my_venv/bin/activate - активация виртуального окружения
 pip install -r requirements.txt - установкав в окружение всех требуемых библиотек
 ```
 
