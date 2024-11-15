@@ -1,5 +1,5 @@
 *.csv
 *.pkl
 .my_venv*/
-mlflow/mlartifacts
+mlflow/mlartifacts/
 mlflow/mlruns.db
