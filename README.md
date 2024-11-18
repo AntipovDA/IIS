@@ -8,6 +8,9 @@ cd IIS - переход в склонированную папку
 python3 -m venv .my_venv - установка виртуального окружения
 source .my_venv/bin/activate - активация виртуального окружения
 pip install -r requirements.txt - установкав в окружение всех требуемых библиотек
+```
+Запуск MlFlow:
+```
 cd mlflow - переход в папку со bash-скриптом, который запускает Mlflow
 sh start_mlflow.sh - запуск mlflow
 ```
