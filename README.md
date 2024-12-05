@@ -53,9 +53,18 @@ mse: 3,28
 На вход модели подавались следующие признаки: 
 
 ```
-num__Selling_Price, num__Driven_kms, cat__Car_Name, cat__Fuel_Type, cat__Selling_type, cat__Transmission poly__1, poly__Selling_Price, poly__Driven_kms, poly__Selling_Price^2, poly__Selling_Price, Driven_kms, poly__Driven_kms^2, k_bin__Selling_Price, k_bin__Driven_kms
+
 ```
 
-Лучшая модель была обучена на всей выборке с тэгом Production. Run ID = 4f48f48858094c48a0114ad0a4d9924a
+Лучшая модель была обучена на всей выборке с тэгом Production. Run ID = 'c47d900173524e54a3c2d81582996146'
+
+## **Описание разработанного сервиса: **
+1. ml_service - содержит в себе следующие файлы:
+    * Dockerfile - содержит инструкцию по сборке образа и запуску контейнера
+    * api_handler.py - содержит класс-обработчик запросов к API FastAPIHandler, который загружает обученную модель, принимает входные данные и выполняет предсказание с помощью загруженной модели
+    * main.py - содержит скрипт, который разворачивает сервис для взаимодействия с моделью машинного обучения через API
+    * requirements.txt - хранит зависимости, которые необходимы для работы сервиса
 
 
+2. models - содержит в себе следующие файлы:
+    * get_model.py - скрипт, который должен подключаться к mlflow, выгружать модель по её run_id и сохранять ее в файл model.pkl
