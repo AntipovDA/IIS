@@ -73,3 +73,16 @@ mse: 3,28
 docker build . --tag estate_model:0 - команда для создания образа
 docker run -p 8001:8000 -v $(pwd)/../models:/models estate_model:0 - команда для запуска контейнера
 ```
+
+Тело запроса: 
+```
+{
+ "Car_Name": sx4,
+ "Selling_Price": 4.87,
+ "Driven_kms": 42450,
+ "Fuel_Type": 1,
+ "Selling_type": "Petrol",
+ "Transmission": "Manual",
+ "Owner": 0
+}
+```
