@@ -53,7 +53,7 @@ mse: 3,28
 На вход модели подавались следующие признаки: 
 
 ```
-
+ "Car_Name", "Selling_Price", "Driven_kms", "Fuel_Type", "Selling_type", "Transmission", "Owner"
 ```
 
 Лучшая модель была обучена на всей выборке с тэгом Production. Run ID = 'c47d900173524e54a3c2d81582996146'
