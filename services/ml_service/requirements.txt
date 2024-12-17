@@ -3,3 +3,5 @@ uvicorn==0.32.0
 pandas==2.2.3
 scikit-learn==1.5.2
 pickle4==0.0.1
+prometheus-fastapi-instrumentator==7.0.0
+prometheus_client==0.21.1
