@@ -1,6 +1,27 @@
 ## **Описание проекта:**
 Целью данного проекта является прогнозирование цен на подержаные автомобили. Для данной задачи используется набор данных Car Price prediction: https://www.kaggle.com/datasets/vijayaadithyanvg/car-price-predictionused-cars/data
 
+В рамках данного проекта создается создается модель предсказания цен на подержаные автомобили, проводятся эксперименты по настройке модели с использованием MLFlow, создается микросервис предсказаний на основе FastApi. Также доступна возможность автоматической отправки запросов на сервис предсказаний и получения в ответ предикта. Есть возможность осуществлять мониторинг сервиса с помощью Prometheus и Grafana.
+
+Список используемых библиотек: 
+```
+matplotlib
+numpy
+pandas
+seaborn
+bokeh
+pickle4
+mlflow
+scikit-learn
+mlxtend
+optuna
+fastapi
+uvicorn
+prometheus-fastapi-instrumentator
+prometheus_client
+requests
+```
+
 ## **Запуск:**
 ```
 git clone https://github.com/AntipovDA/IIS - клонирование репозитория
