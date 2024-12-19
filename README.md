@@ -112,4 +112,11 @@ http://localhost:3000 - для запуска Grafana
 Запуск compose-проекта осуществляется командой ```docker compose up```
 
 ## Графики (Prometheus)**
-![гистограма предсказаний модели](https://github.com/AntipovDA/IIS/blob/main/services/prometheus/Screenshot%20from%202024-12-19%2014-21-45.png)
+* гистограма предсказаний модели
+![image](https://github.com/AntipovDA/IIS/blob/main/services/prometheus/Screenshot%20from%202024-12-19%2014-21-45.png)
+
+* частота (rate) запросов к основному сервису в минуту
+![image](https://github.com/AntipovDA/IIS/blob/main/services/prometheus/Screenshot%20from%202024-12-19%2014-22-10.png)
+
+* Количество запросов к сервису с кодами ошибок 4** и 5**
+![image](https://github.com/AntipovDA/IIS/blob/main/services/prometheus/Screenshot%20from%202024-12-19%2014-23-07.png)
